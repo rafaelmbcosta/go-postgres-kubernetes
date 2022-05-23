@@ -31,7 +31,7 @@ make createdb
 
 4. migrating the database
 ```
-migrate --path db/migration --database "postgresql://root:secret@localhost:5432/mybank?sslmode=disable" --verbose up
+make migrateup
 ```
 
 ## Other commands
